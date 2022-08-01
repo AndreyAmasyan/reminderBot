@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-
+	t := mustToken()
 }
 
 func mustToken() string {
