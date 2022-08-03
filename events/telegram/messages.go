@@ -1,8 +1,8 @@
 package telegram
 
-const msgHelp = `I can save and keep you pages. Also I can offer you them to read.
+const msgHelp = `I can save and keep your pages. Also I can offer them to read.
 
-In order to save the page, just send me all link to it.
+In order to save the page, just send me full link to it.
 
 In order to get a random page from your list, send me command /rnd.
 Caution! After that, this page will be removed from your list!`

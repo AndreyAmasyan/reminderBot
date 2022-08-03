@@ -38,7 +38,7 @@ func (p *EventProcessor) Fetch(limit int) ([]events.Event, error) {
 	}
 
 	if len(updates) == 0 {
-		return nil, e.Wrap("updates are empty", err)
+		return nil, nil
 	}
 
 	res := make([]events.Event, 0, len(updates))
