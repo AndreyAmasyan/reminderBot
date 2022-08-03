@@ -22,7 +22,7 @@ func New(basePath string) FilesStorage {
 	return FilesStorage{basePath: basePath}
 }
 
-func (s *FilesStorage) Save(page *storage.Page) (err error) {
+func (s FilesStorage) Save(page *storage.Page) (err error) {
 	defer func() { err = e.WrapIfErr("can't save page", err) }()
 
 	filePath := filepath.Join(s.basePath, page.UserName)
