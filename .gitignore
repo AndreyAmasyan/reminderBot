@@ -1,3 +1,4 @@
 *.exe
 files_storage/
 *.txt
+data/
